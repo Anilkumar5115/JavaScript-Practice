@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Registration Form</title>
+        <script src="signup.js"></script>
+    </head>
+    <body>
+        <header>
+            <center>
+                <h1>
+                    <font color="green">Welcome To INTONE</font>
+                </h1>
+            </center>
+            <p align="center">
+                <a href="#">Home</a> &nbsp;
+                <a href="about.html">About</a> &nbsp;
+                <a href="signup.html">Sign up</a> &nbsp;
+                <a href="Signin.html">Sign in</a>
+            </p>
+        </header>
+        <hr>
+        <form name="FORM" action="url" method="post" onsubmit="return returnfun1()" onreset="return returnfun2()">
+            <table align="center" cellspacing="5px" cellpadding="5px">
+                <caption>
+                    <h2>Sign up form</h2>
+                </caption>
+                <tr>
+                    <td><label for="id1">Mail Id</label></td>
+                    <td>
+                        <input type="email" id="id1" name="name1">
+                        <span id="span1" style="color: blue;"></span>
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="id2">Password</label></td>
+                    <td>
+                        <input type="password" id="id2" name="name2">
+                        <span id="span2" style="color: cornsilk;"></span>
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="id3">Fullname</label></td>
+                    <td>
+                        <input type="text" id="id3" name="name3" placeholder="Anil Kumar">
+                        <span id="span3" style="color: cadetblue;"></span>
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="id4">Date Of Birth</label></td>
+                    <td>
+                        <input type="date" id="id4" name="name4">
+                        <span id="span4" style="color: chartreuse;"></span>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="radio" value="Online" id="id51" name="name5">Online
+                        <input type="radio" value="offline" id="id52" name="name5">Offline
+                        <span id="span5" style="color: pink;"></span>
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="id61">Courses</label></td>
+                    <td>
+                        <input type="checkbox" value="C" id="id61" name="name6">C
+                        <input type="checkbox" value="Java" id="id62" name="name6">Java
+                        <input type="checkbox" value="Python" id="id63" name="name6">Python
+                        <span id="span6" style="color: brown;"></span>
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="id7">Qualification</label></td>
+                    <td>
+                        <select name="name7" id="id7">
+                            <option value="select degree"></option>
+                            <option value="UG">UG</option>
+                            <option value="PG">PG</option>
+                            <option value="PHD">PHD</option>
+                        </select>
+                        <span id="span7" style="color: coral;"></span>
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="id8">Upload Resume</label></td>
+                    <td>
+                        <input type="file" name="name8" id="id8">
+                        <span id="span8" style="color: chocolate;"></span>
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="id9">Address</label></td>
+                    <td>
+                        <textarea name="name9" id="id9" cols="20" rows="5"></textarea>
+                        <span id="span9" style="color: burlywood;"></span>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="submit" value="Register">
+                    </td>
+                    <td>
+                        <input type="reset" value="Clear">
+                    </td>
+                </tr>
+            </table>
+        </form>
+        <hr>
+        <footer>
+            <center>
+                <h3>
+                    <font color="red">copyright@intone.com</font>
+                </h3>
+            </center>
+        </footer>
+    </body>
+</html>
